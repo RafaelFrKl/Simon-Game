@@ -90,6 +90,7 @@ function checkAnswer(currentLevel){
 function startOver(){
     //Reset Game variables
     gamePattern = []; 
+    userClickedPattern = [];
     level = 0;
     started = false;
 }
